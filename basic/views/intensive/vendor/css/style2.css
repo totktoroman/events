@@ -1,0 +1,248 @@
+ @font-face {	
+	font-family: nn; /* Имя шрифта */
+	font-weight: 400;
+	src: url(../fonts/NovitoNova-Regular.otf); /* Путь к файлу со шрифтом */
+}
+
+ @font-face {
+	font-family: nn; /* Имя шрифта */	
+	font-weight: 200;
+	src: url(../fonts/NovitoNova-Thin.otf); /* Путь к файлу со шрифтом */
+}
+
+ @font-face {	
+	font-family: gothic; /* Имя шрифта */
+	font-weight: 200;
+	src: url(../fonts/GOTHIC.TTF); /* Путь к файлу со шрифтом */
+}
+
+ @font-face {
+	font-family: gothic; 
+	font-weight: 800;
+	src: url(../fonts/GOTHICB.TTF);
+}
+ @font-face {	
+	font-family: gothic;
+	font-weight: 800;
+	font-style: italic;
+	src: url(../fonts/GOTHICBI.TTF); 
+}
+
+ @font-face {
+	font-family: gothic; 
+	font-weight: 200;
+	font-style: italic;
+	src: url(../fonts/GOTHICI.TTF); 
+}
+
+.logo-container{margin: 65px 0 20px;}
+
+.logo-container h2{
+	margin: 30px 0 70px;
+	color: #a32730;
+	font: 800 50px gothic;
+	text-transform: uppercase;
+}
+
+.logo-container img{display: inline-block;margin: 0 40px;}
+
+.first-list{
+	height: 560px;
+	background: #ffd085;
+	margin-bottom: 100px;
+}
+
+.first-list .right-content{float: right;width: 50%;}
+
+.first-list .left-content{float: left;width: 50%;}
+
+.first-list .left-content img{
+	display: inline-block;
+	/*height: auto;
+	width: 100%;*/
+	position: relative;
+    bottom: 45px;
+}
+
+.monkey-center{max-width: 500px;margin: 0 auto;}
+
+.clr{clear: both;}
+
+h1{
+	font-family: gothic;
+	font-weight: bold;
+}
+
+.first-list h2{
+	/*margin-top: 70px;*/
+	margin-top: 24px;
+	color: #a32730;
+	font: 800 30px gothic ;
+	text-transform: uppercase;
+}
+
+.first-list h3{
+	color: #a32730;
+	font: 200 30px gothic;
+	text-transform: uppercase;
+	margin: 30px 0 0;
+}
+.first-list .right-content .blue{color: #2e508c;}
+
+.first-list h1 span{font-size: 130px;}
+
+.first-list h1{
+	color: #a32730;
+	font: 150px nn;
+	line-height: 103px;
+	text-transform: uppercase;
+}
+
+
+p{
+	font-family: gothic; 
+	font-weight: 200;
+	font-size: 16px;
+}
+
+h3{font-family: gothic;font-weight: 800;}
+
+#grid[data-columns]::before {content: '2 .column.size-1of2';}
+#grid2[data-columns]::before {content: '2 .column.size-1of2';}
+
+/* These are the classes that are going to be applied: */
+.column { float: left; box-sizing: border-box; padding: 10px;}
+.size-1of2 { width: 50%; }
+
+article{max-width: 1000px;margin: 0 auto;}
+
+.cont{max-width: 1300px;margin: 0 auto;}
+
+.block-content{
+	background: rgba(247,200,138,.2);
+	padding: 10px 30px;
+	box-sizing:border-box;
+	margin: 20px 0;
+	border: 2px dashed #F7C88A;
+	border-radius: 5px;
+}
+.table-content{
+	max-width: 981px;
+	margin: 0 auto;
+	box-sizing:border-box;
+	padding: 30px;
+}
+
+.g1{font: 200 20px gothic;}
+.g2{font: 400 20px gothic;}
+.g3{font: 600 20px gothic;}
+.g4{font: 800 20px gothic;}
+
+table{border-radius: 10px;width: 100%;}
+
+table h3{font-size: 20px;margin: 5px 0;}
+
+table p{margin: 5px 0;}
+
+.italic{font-style: italic;}
+
+
+.navbar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-radius: 0;
+	border: none;
+	box-shadow: 0 -38px 8px 40px rgba(0,0,0,.2);
+	background: #fff;
+}
+
+body{background: url(../img/bg-site.jpg) fixed;}
+
+.fa{margin: 0 5px;}
+
+span{font-size: 20px;}
+
+a{font-weight: 200;}
+
+.dashed{border-bottom: 1px dashed;text-decoration: none!important;}
+
+.dashed:hover{border: none;}
+
+footer{
+	margin-top: 100px;
+	background: #ffd085;
+	padding: 15px 6%;
+}
+
+.pred{
+	margin-bottom: 0;
+}
+
+.mobile-resp{display: none;}
+
+.comp-resp{display: table;}
+
+
+footer h3{color: #a32730;font: 800 45px gothic;}
+
+.inf{margin-top: 60px;}
+
+footer img{margin: 20px;display: inline-block;}
+
+@media screen and (max-width: 800px){
+	.monkey-center{
+		max-width: 300px;
+		margin: 0 auto;
+	}
+	.first-list .left-content, .first-list .right-content{
+		width: 100%;
+	}
+	.first-list{
+		margin-bottom: 20px;
+		height: auto;
+	}
+	.right-content{
+		padding-bottom: 30px;
+	}
+	#grid[data-columns]::before {
+		content: '1 .column.size-1of1';
+	}
+	#grid2[data-columns]::before {
+		content: '1 .column.size-1of1';
+	}
+	.first-list h1 {
+	    font: 100px nn;
+	    line-height: 40px;
+	}
+	.first-list h1 span{
+	    font: 80px nn;
+	}
+	.logo-container h2 {
+		font-size: 30px;
+	}
+
+	table h3{
+		font-size: 13px;
+	}
+
+	.mobile-resp{display: table;}
+
+	.comp-resp{display: none;}
+
+	.logo-container{
+		margin-top: 150px;
+	}
+
+	.navbar-left{
+		float: left;
+	}
+}
+
+
+	/*@media screen and (max-width: 480px){
+		#grid[data-columns]::before {
+			content: '1 .column.size-1of1';
+		}
+	}*/

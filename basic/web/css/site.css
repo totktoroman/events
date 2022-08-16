@@ -1,0 +1,213 @@
+html,
+body {
+    height: 100%;
+    
+}
+.background{
+    background: url(../img/bg-site.jpg) fixed;
+}
+
+
+.breadcrumb > li + li::before {
+    
+    color:black;
+  
+}
+.left{
+    position: relative;
+    left: 20px;
+}
+.right{
+    position: relative;
+    margin-left: 70%;
+}
+.block{
+    display: inline;
+}
+
+.block-content{
+	background: rgba(247,200,138,.2);
+	padding: 10px 30px;
+	box-sizing:border-box;
+	margin: 20px 0;
+	border: 2px dashed #F7C88A;
+	border-radius: 5px;
+    font-size: 120%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+    
+}
+
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+.button-add {
+    background-color: #ffffff;
+    border: 2px solid #16df1d; /* Green */
+    border-radius: 8px;
+    color: rgb(19, 102, 44);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button-update {
+    background-color: #ffffff;
+    border: 2px solid #151336; /* Green */
+    border-radius: 8px;
+    color: rgb(43, 30, 90);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button-delete {
+    background-color: #ffffff;
+    border: 2px solid #9b2929; /* Green */
+    border-radius: 8px;
+    color: rgb(94, 28, 28);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button-add:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.button-update:hover {
+    background-color: #21225c; /* Green */
+    color: white;
+}
+.button-delete:hover {
+    background-color: #6b2f2f; /* Green */
+    color: white;
+}
+
+.instruction_img{
+    width: 100%;
+}
+
